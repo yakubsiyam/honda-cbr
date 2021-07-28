@@ -1,0 +1,32 @@
+/* font-family: 'Inter', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+button{
+    padding: 0.8rem 2.5rem;
+    background-color: #E76F51;
+    border: none;
+}
+
+header, .modal-price{
+    background-color: #264653;
+}
+
+.showcase p{
+    color: #E0E0E0;
+}
+
+.showcase img{
+    width: 100%;
+}
+
+.checked{
+    color: #E77C40;
+}
