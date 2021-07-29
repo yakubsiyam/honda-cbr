@@ -7,27 +7,24 @@
 
 body{
     font-family: 'Poppins', sans-serif !important;
+    scroll-behavior: smooth;
 }
 
-
-
-header, .modal-price{
-    background-color: #264653;
+header,footer, .modal-price{
+    background-color: #264653 !important;
 }
 
-.showcase p{
+#showcase p{
     color: #E0E0E0;
 }
 
-.showcase button,
-.contact-us button{
+#showcase button,
+.contact-us button,
+.nav-button,
+.news-button{
     padding: 0.8rem 2.5rem;
     background-color: #E76F51;
     border: none;
-}
-
-.showcase img{
-    width: 100%;
 }
 
 .checked{
