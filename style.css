@@ -9,11 +9,7 @@ body{
     font-family: 'Poppins', sans-serif !important;
 }
 
-button{
-    padding: 0.8rem 2.5rem;
-    background-color: #E76F51;
-    border: none;
-}
+
 
 header, .modal-price{
     background-color: #264653;
@@ -23,10 +19,26 @@ header, .modal-price{
     color: #E0E0E0;
 }
 
+.showcase button,
+.contact-us button{
+    padding: 0.8rem 2.5rem;
+    background-color: #E76F51;
+    border: none;
+}
+
 .showcase img{
     width: 100%;
 }
 
 .checked{
     color: #E77C40;
+}
+
+.latest-product button{
+    padding: 0.4rem 2.5rem;
+    border: 1px solid #E76F51;
+}
+
+.latest-product img{
+    background-color: #EEEEEE;
 }
